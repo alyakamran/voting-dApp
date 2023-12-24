@@ -1,6 +1,6 @@
 # voting-dApp
 
-# <h1> CSCI 4312 Blockchain & Application </h1>
+<h2> CSCI 4312 Blockchain & Application </h2>
 
 **Group 2**
 <pre>
