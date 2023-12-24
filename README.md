@@ -11,13 +11,13 @@ ALYA HUSNA BINTI IBRAHIM 2019748
 
 ## voting-dApp
 
-###Introduction and Objectives
+### Introduction and Objectives
 
 - problem statement + solution (objectives)
 
-###dApp Architecture
+### dApp Architecture
 ![CSCI 4312_ Use Case DIagram drawio](https://github.com/alyakamran/voting-dApp/assets/121216138/a49a92a7-15f7-4dd7-b317-f2cbe4af6625)
 - use case diagram + explanation (prolly)
 
-###Smart Contract
+### Smart Contract
 - screenshot + explanation for each functions
