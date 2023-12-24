@@ -1,6 +1,6 @@
 <h2> CSCI 4312 Blockchain & Application </h2>
 
-**Group 2**
+**Group Project**
 <pre>
 
 ALYA AQILAH BINTI AHMAD KAMRAN 20....<br>
