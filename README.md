@@ -13,7 +13,7 @@ ALYA HUSNA BINTI IBRAHIM 2019748
 
 ### Introduction and Objectives
 
-- problem statement + solution (objectives)
+The election and voting system is a basis of democratic processes, spanning various scenarios from local student societies' elections to the national general elections for citizens of democratic nations. Despite the prevalence of these systems, they are not immune to faults or corruptions, raising concerns about the integrity and transparency of the electoral process. Issues such as voter fraud, manipulation, and data tampering have been reported, highlighting the need for immediate solutions. In response to these challenges, a blockchain-based voting decentralized application (dApp) is introduced as a potential solution. Leveraging the inherent security features of blockchain technology, this voting dApp aims to enhance the transparency, security, and tamper-resistance of the election process. By decentralizing the voting infrastructure, it reduces the risk of centralized control and manipulation, ensuring a more trustworthy and democratic electoral experience for all participants.
 
 ### dApp Architecture
 ![CSCI 4312_ Use Case DIagram drawio](https://github.com/alyakamran/voting-dApp/assets/121216138/a49a92a7-15f7-4dd7-b317-f2cbe4af6625)
