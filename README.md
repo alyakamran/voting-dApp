@@ -17,7 +17,8 @@ The election and voting system is a basis of democratic processes, spanning vari
 
 ### dApp Architecture
 ![CSCI 4312_ Use Case DIagram drawio](https://github.com/alyakamran/voting-dApp/assets/121216138/a49a92a7-15f7-4dd7-b317-f2cbe4af6625)
-- use case diagram + explanation (prolly)
+
+The use case diagram for the voting dApp outlines the key features and functionalities for two primary actors: the Admin and the Voter. The Voter, representing the individual participating in the election, is able to register, choosing a candidate to vote for, and the system will verify if the voter has already cast their vote. On the other hand, the Admin is responsible for overseeing the election process, has the authority to add candidates for voters to choose from. Additionally, the Admin can perform crucial functions such as tallying votes and determining the winner of the election. This use case diagram visually captures the essential interactions between the users (Admin and Voter) and the system, ensuring a clear and comprehensive representation of the voting dApp's functionalities.
 
 ### Smart Contract
 **1. Election Contract Structure**
