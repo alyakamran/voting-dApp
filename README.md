@@ -85,9 +85,9 @@ The use case diagram for the voting dApp outlines the key features and functiona
 - **Purpose:** Finds the candidate with the highest number of votes (the winner).
 - **Returns:** Tuple containing the winner's ID, name, and vote count.
 
-  ### Development Process
+### Development Process
 
-  ### Challenges
+### Challenges
 
-  the versioning
+ the versioning
   
