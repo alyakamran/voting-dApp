@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting dApp</title>
+    <link rel="stylesheet" href="./styles.css">
+    
+</head>
+<body>
+
+    <div id="navbar">
+
+        <div id="logo">
+            <img src="./pics/logo.png" alt="Logo" width="100">
+            <h1>Ballot</h1>
+        </div>
+
+        <div class="nav">
+            <a href="#" id="userLink">User</a>
+            <a href="#" id="adminLink">Admin</a>
+        </div>    
+        
+    </div>
+
+    <hr>
+
+    <div id="banner">
+        <img src="./pics/banner.png" alt="Banner Image">
+        <button id="voteNowButton" onclick="scrollToVoteSection()">Vote Now</button>
+    </div>
+
+    <h1>Voting dApp</h1>
+
+    <!-- Example UI element to display the connected account -->
+    <div class="acc">
+        <p>Connected Account: <span id="userAccount"></span></p>
+    </div>
+ 
+
+    <div id="candidates">
+        <h2>Candidates</h2>
+        <ul id="candidatesList"></ul>
+    </div>
+
+    <div class="btt">
+        <button id="voteBtt">Vote</button>
+        <button id="resBtt">Result</button>
+    </div>
+
+    <br>
+
+    <button id="adminBtt">Admin</button>
+
+    <br>
+
+    <div id="voteSection">
+        <label for="candidateId">Vote for Candidate ID:</label>
+        <input type="number" id="candidateId" min="1">
+        <button id="voteButton">Vote</button>
+
+    </div>
+
+    <div id="results">
+        <h2>Election Results</h2>
+        <p id="winner"></p>
+    </div>
+
+    <div id="adminSection">
+        <h2>Add Candidate (Admin)</h2>
+        <label for="newCandidateName">Candidate Name:</label>
+        <input type="text" id="newCandidateName">
+        <button id="addCandidateButton">Add Candidate</button>
+    </div>
+
+    <!-- Include web3 directly from a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.3/dist/web3.min.js"></script>
+    <!-- Include MetaMask script -->
+    <script src="https://cdn.jsdelivr.net/npm/@metamask/detect-provider"></script>
+
+
+    <script src="./app.js"></script>
+</body>
+</html>
