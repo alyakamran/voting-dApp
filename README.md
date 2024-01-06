@@ -183,13 +183,13 @@ The use case diagram for the voting dApp outlines the key features and functiona
 
 ## Challenges
 
-###Solidity Compiler (solc) and Smart Contract Versioning:
+### Solidity Compiler (solc) and Smart Contract Versioning:
 
 **Challenge:** The Solidity compiler (solc) is crucial for compiling smart contracts, and its version compatibility with Truffle and the smart contract code is essential. Truffle may refuse to compile if there's a mismatch in versions, leading to build errors.
 
 **Solution:** Ensuring that the versions of solc specified in the Truffle configuration (truffle-config.js) and the pragma statement in the smart contract are compatible is crucial. Regularly checking for updates and aligning versions appropriately can help avoid compilation issues.
 
-###Metamask Wallet Integration:
+### Metamask Wallet Integration:
 
 **Challenge:** Integrating Metamask with the frontend and ensuring that transactions are executed by the connected account presented challenges. Metamask is a browser extension that manages user Ethereum accounts, and synchronizing it with the frontend for transaction execution is crucial.
 
