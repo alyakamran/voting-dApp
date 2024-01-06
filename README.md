@@ -128,7 +128,6 @@ The use case diagram for the voting dApp outlines the key features and functiona
 5. **Deployment Script:**
    - Create a `2_deploy_contracts.js` file in the `migrations` folder to load and deploy your smart contract.
      ```bash
-     // migrations/2_deploy_contracts.js
      const Election = artifacts.require("Election");
 
      module.exports = function (deployer) {
@@ -184,5 +183,14 @@ The use case diagram for the voting dApp outlines the key features and functiona
 
 ### Challenges
 
- the versioning
+1. Solidity Compiler (solc) and Smart Contract Versioning:
+
+**Challenge:** The Solidity compiler (solc) is crucial for compiling smart contracts, and its version compatibility with Truffle and the smart contract code is essential. Truffle may refuse to compile if there's a mismatch in versions, leading to build errors.
+
+**Solution:** Ensuring that the versions of solc specified in the Truffle configuration (truffle-config.js) and the pragma statement in the smart contract are compatible is crucial. Regularly checking for updates and aligning versions appropriately can help avoid compilation issues.
+
+2. Metamask Wallet Integration:
+
+**Challenge:** Integrating Metamask with the frontend and ensuring that transactions are executed by the connected account presented challenges. Metamask is a browser extension that manages user Ethereum accounts, and synchronizing it with the frontend for transaction execution is crucial.
+**Solution:** Utilizing the Metamask JavaScript library and following best practices for connecting the frontend with the wallet is essential. The ethereum.request method is used to request user accounts and handle transactions. Ensuring that the user approves transactions in the Metamask popup and handling errors gracefully enhances the user experience.
   
