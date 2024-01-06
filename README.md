@@ -154,6 +154,7 @@ The use case diagram for the voting dApp outlines the key features and functiona
 
 1. **Create Frontend (HTML, CSS, JavaScript):**
    - Create an `index.html` file for the frontend which includes sections for  candidate information, voting, results, and admin actions
+              ![image](https://github.com/alyakamran/voting-dApp/assets/121216138/191e385b-ebb9-41cb-97c4-3c535fb4022f)
 
 2. **Install Web3 and Metamask:**
    - Install Web3 and Metamask:
