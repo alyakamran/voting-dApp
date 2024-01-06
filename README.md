@@ -109,23 +109,33 @@ The use case diagram for the voting dApp outlines the key features and functiona
 
 ## Project Initialization:
 
-1. **Create a new project directory:**
-   - Create and navigate to a new directory for your project in the terminal.
+1. **Create a new project directory named voting-dApp:**
+   - Navigate to the directory for voting-dApp in the terminal.
 
 2. **Initialize Truffle project:**
    - Run the following command to initialize a Truffle project:
      ```bash
      truffle init
      ```
+    - contracts, migrations, test folders and truffle-config.js file will be created in the directory.
 
 3. **Smart Contract Setup:**
-   - Place your smart contract in the `contracts` folder.
+   - Place the smart contract in the `contracts` folder.
 
 4. **Configure Truffle:**
-   - Open `truffle-config.js` to configure the network settings based on your Ganache workspace. Adjust the compiler version for Solidity (based on your smart contract).
+   - Open `truffle-config.js` to configure the network settings based on your Ganache workspace. Adjust the compiler version for Solidity (refer to the current version of solc and smart contract).
 
 5. **Deployment Script:**
    - Create a `2_deploy_contracts.js` file in the `migrations` folder to load and deploy your smart contract.
+     ```bash
+     // migrations/2_deploy_contracts.js
+     const Election = artifacts.require("Election");
+
+     module.exports = function (deployer) {
+       deployer.deploy(Election);
+     };
+     ```
+     
 
 6. **Compile the Smart Contract:**
    - Compile the smart contract using:
@@ -144,7 +154,7 @@ The use case diagram for the voting dApp outlines the key features and functiona
 ## Frontend Setup:
 
 1. **Create Frontend (HTML, CSS, JavaScript):**
-   - Create an `index.html` file for your frontend.
+   - Create an `index.html` file for the frontend which includes sections for  candidate information, voting, results, and admin actions
 
 2. **Install Web3 and Metamask:**
    - Install Web3 and Metamask:
