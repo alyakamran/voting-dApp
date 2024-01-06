@@ -11,16 +11,16 @@ ALYA HUSNA BINTI IBRAHIM 2019748
 
 ## voting-dApp
 
-### Introduction and Objectives
+## Introduction and Objectives
 
 The election and voting system is a basis of democratic processes, spanning various scenarios from local student societies' elections to the national general elections for citizens of democratic nations. Despite the prevalence of these systems, they are not immune to faults or corruptions, raising concerns about the integrity and transparency of the electoral process. Issues such as voter fraud, manipulation, and data tampering have been reported, highlighting the need for immediate solutions. In response to these challenges, a blockchain-based voting decentralized application (dApp) is introduced as a potential solution. Leveraging the inherent security features of blockchain technology, this voting dApp aims to enhance the transparency, security, and tamper-resistance of the election process. By decentralizing the voting infrastructure, it reduces the risk of centralized control and manipulation, ensuring a more trustworthy and democratic electoral experience for all participants.
 
-### dApp Architecture
+## dApp Architecture
 ![CSCI 4312_ Use Case DIagram drawio](https://github.com/alyakamran/voting-dApp/assets/121216138/a49a92a7-15f7-4dd7-b317-f2cbe4af6625)
 
 The use case diagram for the voting dApp outlines the key features and functionalities for two primary actors: the Admin and the Voter. The Voter, representing the individual participating in the election, is able to register, choosing a candidate to vote for, and the system will verify if the voter has already cast their vote. On the other hand, the Admin is responsible for overseeing the election process, has the authority to add candidates for voters to choose from. Additionally, the Admin can perform crucial functions such as tallying votes and determining the winner of the election. This use case diagram visually captures the essential interactions between the users (Admin and Voter) and the system, ensuring a clear and comprehensive representation of the voting dApp's functionalities.
 
-### Smart Contract
+## Smart Contract
 **1. Election Contract Structure**
 
 - **admin:** Stores the Ethereum address of the election commission (admin) who has special privileges.
