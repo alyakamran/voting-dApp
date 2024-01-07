@@ -183,7 +183,23 @@ The use case diagram for the voting dApp outlines the key features and functiona
 5. **Access Your Web Application:**
    - Open your web browser and go to the port shown to access your web application.
 
+## Unit Testing:
 
+1. **Create Test File:**
+  - Create test files with .js extensions in the test folder (e.g., test/test.js).
+
+2. **Write Test Cases:**
+  - Import necessary modules:
+    ```JavaScript
+     const Election = artifacts.require("Election");
+     ```
+
+  - Write the test scripts
+
+3. **Run Tests:**
+ - ```bash
+     truffle test
+     ```
 
 ## Challenges
 
