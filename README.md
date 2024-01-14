@@ -214,4 +214,11 @@ The use case diagram for the voting dApp outlines the key features and functiona
 **Challenge:** Integrating Metamask with the frontend and ensuring that transactions are executed by the connected account presented challenges. Metamask is a browser extension that manages user Ethereum accounts, and synchronizing it with the frontend for transaction execution is crucial.
 
 **Solution:** Utilizing the Metamask JavaScript library and following best practices for connecting the frontend with the wallet is essential. The ethereum.request method is used to request user accounts and handle transactions. Ensuring that the user approves transactions in the Metamask popup and handling errors gracefully enhances the user experience.
+
+### Automated Testing and Smart Contract Coverage:
+
+**Challenge:** Ensuring comprehensive test coverage for smart contracts is essential to identify and fix bugs or vulnerabilities. Writing effective unit tests and ensuring that all contract functionalities are tested can be challenging.
+
+**Solution:** Employing Truffle's testing framework and leveraging tools like Ganache for local testing facilitates the creation of thorough unit tests. Implementing automated testing scripts that cover various scenarios, including edge cases and possible vulnerabilities, ensures robust test coverage. Regularly updating and expanding the test suite as the smart contract evolves contributes to ongoing code quality assurance.
+
   
