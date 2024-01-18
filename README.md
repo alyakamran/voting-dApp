@@ -180,6 +180,11 @@ The use case diagram for the voting dApp outlines the key features and functiona
      http-server
      ```
 
+     Use this command to refresh cache:
+     ```bash
+     http-server -c10
+     ```
+
 5. **Access Your Web Application:**
    - Open your web browser and go to the port shown to access your web application.
 
