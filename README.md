@@ -147,7 +147,7 @@ The use case diagram for the voting dApp outlines the key features and functiona
 7. **Migrate to the Blockchain:**
    - Migrate the smart contract to your blockchain using:
      ```bash
-     truffle migrate
+     >truffle migrate --network sepolia
      ```
 
 ## Frontend Setup:
