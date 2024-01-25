@@ -2,7 +2,12 @@
 document.addEventListener("DOMContentLoaded", async () => {
 
     // Connect to local Ganache instance
-    const web3 = new Web3("http://127.0.0.1:7545");
+    //const web3 = new Web3("http://127.0.0.1:7545");
+
+    // Connect to Infura Ethereum Node
+    const Web3 = require('web3');
+    const infuraUrl = 'https://sepolia.infura.io/v3/28092acfbf1e494d887016ddb1536049';
+    const web3 = new Web3(new Web3.providers.HttpProvider(infuraUrl));
 
     // Set the contract ABI and address
     const contractABI = [
