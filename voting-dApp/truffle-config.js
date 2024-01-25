@@ -69,6 +69,21 @@ module.exports = {
      port: 7545,            // Standard Ethereum port (default: none)
      network_id: "*",       // Any network (default: none)
     },
+
+    sepolia: {
+      provider: () => new HDWalletProvider({
+      mnemonic: {
+      phrase: "smoke, reject, shock, claw, frog, focus, love, business, antique, pair, excite, garden"
+      },
+      providerOrUrl: "https://sepolia.infura.io/v3/28092acfbf1e494d887016ddb1536049"
+      }),
+      network_id: 11155111, // Sepolia's network ID
+      gas: 4000000, // Adjust the gas limit as per your requirements
+      gasPrice: 10000000000, // Set the gas price to an appropriate value
+      confirmations: 2, // Set the number of confirmations needed for a transaction
+      timeoutBlocks: 200, // Set the timeout for transactions
+      skipDryRun: true // Skip the dry run option
+     }
     //
     // An additional network, but with some advanced options…
     // advanced: {
